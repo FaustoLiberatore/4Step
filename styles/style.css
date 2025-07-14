@@ -21,24 +21,29 @@ h2 { color: rgba(44, 42, 42, 0.582);
      font-size: 35px; 
 }
 
+h5 {color: rgb(155, 0, 0);
+     font-family: "Open Sans", sans-serif;
+     font-size: 25px; 
+}
+
 p { color: black;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
      margin: 2px;
 }
 
-form { color: black;
-       font-family: "Lato", sans-serif; 
-       font-size: 16px;
-       font-weight: bold;
-}
 
 footer { color: black;
          font-family: "Lato", sans-serif;
          font-size: 16px;
          font-weight: 400;
          font-style: italic; 
+         margin-top: 100px;
+         margin-left: 20px;
 }
+
+
+/* NAVBAR */
 
 .navbar {
      background-color:rgb(155, 0, 0); ;
@@ -51,8 +56,7 @@ footer { color: black;
      display: flex;
       height: 45px;
       width: 80px;
-      margin-top: 30px;
-     
+      margin-top: 30px;    
 }
 
 .button { 
@@ -60,16 +64,23 @@ footer { color: black;
           height: 45px;
           width: 75px;
           align-items: flex-end;
-          
-
 }
 
 
 .icono { color: black;
 }
 
-/* Box Model - Flexbox */
 
+/* FORMULARIO */
+
+.margin-form {margin: 25px;
+}
+
+.margin-form-labels { margin: 45px;
+}
+
+
+/* TARJETAS DE COMPRA */
 
 .margin-box {
     margin-left: 25px;
@@ -78,14 +89,13 @@ footer { color: black;
    margin-bottom: 50px;
 }
 
-.margin-box-f {
-    margin: 100px;
-}
+
 
 .caja{  width: 15%;
         height: 500px;
         border: 2px solid black;
         border-radius: 5px;
+        padding: 16px;
         color: rgb(0, 0, 0);
         font-family: "Open Sans", sans-serif;
         font-weight: bold;
@@ -98,19 +108,26 @@ footer { color: black;
      margin-top: 20px;
 }
 
+.button-caja { margin: 80px 0;
+
+}
+
+.button-abono{ margin-top: 2%;
+
+}
+
 .flex-container{ display: flex;
+                 flex-direction: row;
                 justify-content: space-evenly;
                 text-align: center;
                 
 }
 
 
-/* Grid */
+/* MEDIA */
 
-/* .grid-container { display: grid;
-                border: 1px;
-                height: 50px;
-                grid-template-columns: 200px repeat(5, 1fr);
-                grid-template-rows: 1px; */
+@media (min-width: 450px) and (max-width 480px) {
+
+}
 
 
