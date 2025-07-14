@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Monserrat */
+
+a { color: rgb(155, 0, 0);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+h1 { color: rgba(44, 42, 42, 0.582);
+     font-family: "Open Sans", sans-serif;
+     font-size: 40px; 
+}
+
+h2 { color: rgba(44, 42, 42, 0.582);
+     font-family: "Open Sans", sans-serif;
+     font-size: 35px; 
+}
+
+p { color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+     margin: 2px;
+}
+
+form { color: black;
+       font-family: "Lato", sans-serif; 
+       font-size: 16px;
+       font-weight: bold;
+}
+
+footer { color: black;
+         font-family: "Lato", sans-serif;
+         font-size: 16px;
+         font-weight: 400;
+         font-style: italic; 
+}
+
+.navbar {
+     background-color:rgb(155, 0, 0); ;
+}
+
+.nav-tabs {
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     display: flex;
+      height: 45px;
+      width: 80px;
+      margin-top: 30px;
+     
+}
+
+.button { 
+          display: flex;
+          height: 45px;
+          width: 75px;
+          align-items: flex-end;
+          
+
+}
+
+
+.icono { color: black;
+}
+
+/* Box Model - Flexbox */
+
+
+.margin-box {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.margin-box-f {
+    margin: 100px;
+}
+
+.caja{  width: 15%;
+        height: 500px;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        font-size: 20px; 
+        
+
+}
+
+.caja img { width: 90%;
+     margin-top: 20px;
+}
+
+.flex-container{ display: flex;
+                justify-content: space-evenly;
+                text-align: center;
+                
+}
+
+
+/* Grid */
+
+/* .grid-container { display: grid;
+                border: 1px;
+                height: 50px;
+                grid-template-columns: 200px repeat(5, 1fr);
+                grid-template-rows: 1px; */
+
+
