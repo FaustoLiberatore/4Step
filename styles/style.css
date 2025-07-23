@@ -4,130 +4,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* Monserrat */
 
-a { color: rgb(155, 0, 0);
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    margin: 5px;
-    text-decoration: none;
-}
-
-h1 { color: rgba(44, 42, 42, 0.582);
+a {
+     color: rgb(155, 0, 0);
      font-family: "Open Sans", sans-serif;
-     font-size: 40px; 
+     font-size: 20px;
+     margin: 5px;
+     text-decoration: none;
 }
 
-h2 { color: rgba(44, 42, 42, 0.582);
+h1 {
+     color: rgba(44, 42, 42, 0.582);
      font-family: "Open Sans", sans-serif;
-     font-size: 35px; 
+     font-size: 40px;
 }
 
-h5 {color: rgb(155, 0, 0);
+h2 {
+     color: rgba(44, 42, 42, 0.582);
      font-family: "Open Sans", sans-serif;
-     font-size: 25px; 
+     font-size: 35px;
 }
 
-p { color: black;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+h5 {
+     color: rgb(155, 0, 0);
+     font-family: "Open Sans", sans-serif;
+     font-size: 25px;
+}
+
+p {
+     color: black;
+     font-family: "Open Sans", sans-serif;
+     font-size: 16px;
      margin: 2px;
 }
 
 
-footer { color: black;
-         font-family: "Lato", sans-serif;
-         font-size: 16px;
-         font-weight: 400;
-         font-style: italic; 
-         margin-top: 100px;
-         margin-left: 20px;
+footer {
+     color: black;
+     font-family: "Lato", sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     font-style: italic;
+     margin-top: 100px;
+     margin-left: 20px;
 }
 
 
 /* NAVBAR */
 
 .navbar {
-     background-color:rgb(155, 0, 0); ;
+     width: 100%;
+     height: 150px;
+    background-image: linear-gradient(90deg, rgb(0, 0, 0) , rgb(255, 255, 255));
 }
 
-.nav-tabs {
-     background-color: white;
-     border: 1px solid black;
-     border-radius: 5px;
-     display: flex;
-      height: 45px;
-      width: 80px;
-      margin-top: 30px;    
+.margin-box {
+     margin-left: 25px;
+     margin-right: 25px;
+     margin-top: 50px;
+     margin-bottom: 50px;
 }
-
-.button { 
-          display: flex;
-          height: 45px;
-          width: 75px;
-          align-items: flex-end;
-}
-
-
-.icono { color: black;
-}
-
 
 /* FORMULARIO */
 
-.margin-form {margin: 25px;
+.margin-form {
+     margin: 25px;
 }
 
-.margin-form-labels { margin: 45px;
+.margin-form-labels {
+     margin: 45px;
 }
-
-
-/* TARJETAS DE COMPRA */
-
-.margin-box {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 50px;
-   margin-bottom: 50px;
-}
-
-
-
-.caja{  width: 15%;
-        height: 500px;
-        border: 2px solid black;
-        border-radius: 5px;
-        padding: 16px;
-        color: rgb(0, 0, 0);
-        font-family: "Open Sans", sans-serif;
-        font-weight: bold;
-        font-size: 20px; 
-        
-
-}
-
-.caja img { width: 90%;
-     margin-top: 20px;
-}
-
-.button-caja { margin: 80px 0;
-
-}
-
-.button-abono{ margin-top: 2%;
-
-}
-
-.flex-container{ display: flex;
-                 flex-direction: row;
-                justify-content: space-evenly;
-                text-align: center;
-                
-}
-
-
-/* MEDIA */
-
-@media (min-width: 450px) and (max-width 480px) {
-
-}
-
-
