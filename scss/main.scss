@@ -1,0 +1,10 @@
+//BASE
+@use "./partials/base/reset.scss";
+@use "./partials/base/tipografia.scss";
+
+//COMPONENTS
+@use "./partials/components/header";
+@use "./partials/components/footer";
+@use "./partials/components/general";
+
+//UTILITIES
