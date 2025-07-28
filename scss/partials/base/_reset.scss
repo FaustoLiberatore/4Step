@@ -27,33 +27,32 @@ h5 {
 
 .grid-container {
      // @include mixins.flex(row, start);
+     border: 1px solid black;
      display: grid;
      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      gap: 25px;
+     
+}
+
+.grid-area {
+     border: 1px solid black;
+     
+     grid-template-columns: repeat(1, 1fr);
+     grid-template-rows: repeat(1, 1fr);
+     gap: 25px;
+     justify-content: space-between;
      margin-left: 25px;
      margin-right: 25px;
-     margin-top: 50px;
-     margin-bottom: 50px;
 }
 
-@media (max-width: 450px) {
-     p {
-          background-color: aqua;
-          font-size: 10px;
-
-     }
-
-     h1 {
-          font-size: 20px;
-     }
-
-     h2{
-          font-size: 17.5px;
-     }
-
-     h5{
-          font-size: 15.5px;
-     }
+.img {
+      grid-area: img;
+     justify-self: center;
+     align-self: center;
 }
+
+
 
 
 

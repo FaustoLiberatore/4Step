@@ -10,13 +10,13 @@ p {
 h1 {
   color: rgba(44, 42, 42, 0.582);
   font-family: "Open Sans", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 h2 {
   color: rgba(44, 42, 42, 0.582);
   font-family: "Open Sans", sans-serif;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 h5 {
@@ -26,29 +26,29 @@ h5 {
 }
 
 .grid-container {
+  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 25px;
 }
 
-@media (max-width: 450px) {
-  p {
-    background-color: aqua;
-    font-size: 10px;
-  }
-  h1 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 17.5px;
-  }
-  h5 {
-    font-size: 15.5px;
-  }
+.grid-area {
+  border: 1px solid black;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 25px;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
 }
+
+.img {
+  grid-area: img;
+  justify-self: center;
+  align-self: center;
+}
+
 /* Monserrat */
 .navbar {
   margin-left: 25px;
@@ -81,6 +81,22 @@ footer {
 
 .dropdown:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 450px) {
+  p {
+    background-color: aqua;
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 17.5px;
+  }
+  h5 {
+    font-size: 15.5px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
