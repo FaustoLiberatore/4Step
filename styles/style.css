@@ -2,10 +2,10 @@
 /* Roboto */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 .p {
-  color: black;
+  color: rgba(0, 0, 0, 0);
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  margin: 2px;
+  margin: 16px;
 }
 
 h1 {
@@ -56,6 +56,14 @@ footer {
 
 .margin-form-labels {
   margin: 45px;
+}
+
+.dropdown-menu {
+  font-family: "roboto";
+}
+
+.dropdown:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

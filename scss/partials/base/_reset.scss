@@ -1,26 +1,28 @@
+@use "../utilities/variables";
+
 .p {
-    color: black;
+    color: variables.$black;
      font-family: "Open Sans", sans-serif;
      font-size: 16px;
-     margin: 2px;
+     margin: variables.$p;
 }
 
 h1 {
-     color: rgba(44, 42, 42, 0.582);
+     color: variables.$grey;
      font-family: "Open Sans", sans-serif;
-     font-size: 40px;
+     font-size: variables.$h1;
 }
 
 h2 {
-     color: rgba(44, 42, 42, 0.582);
+     color: variables.$grey;
      font-family: "Open Sans", sans-serif;
-     font-size: 35px;
+     font-size: variables.$h2;
 }
 
 h5 {
-     color: rgb(155, 0, 0);
+     color: variables.$bordo;
      font-family: "Open Sans", sans-serif;
-     font-size: 25px;
+     font-size: variables.$h5;
 }
 
 .margin-box {
