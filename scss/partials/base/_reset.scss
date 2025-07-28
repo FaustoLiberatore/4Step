@@ -27,7 +27,7 @@ h5 {
 
 .grid-container {
      // @include mixins.flex(row, start);
-     border: 1px solid black;
+     
      display: grid;
      grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(1, 1fr);
@@ -36,7 +36,7 @@ h5 {
 }
 
 .grid-area {
-     border: 1px solid black;
+     
      
      grid-template-columns: repeat(1, 1fr);
      grid-template-rows: repeat(1, 1fr);
@@ -47,7 +47,7 @@ h5 {
 }
 
 .img {
-      grid-area: img;
+     grid-area: img;
      justify-self: center;
      align-self: center;
 }

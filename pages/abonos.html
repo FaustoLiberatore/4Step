@@ -10,59 +10,61 @@
   <!-- CSS -->
   <link rel="stylesheet" href="../styles/style.css">
   <title>4Step Jiu Jitsu</title>
+  <!-- Librerias -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
 <body>
-  <header>
-    <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid" style=>
-        <div class="row">
-          <div class="col-2"></div>
-          <a class="navbar-brand">
-            <img src="../media/logonav.png" width="200" height="75">
-          </a>
-        </div>
-
-      </div>
-      <div class="dropdown">
-
-        <div class="container-fluid"><a class="btn btn-secondary dropdown-toggle" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
+  <section class="grid-container">
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid" style=>
+          <div class="row">
             <div class="col-2"></div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-              class="bi bi-bar-chart-steps" viewBox="0 0 16 16">
-              <path
-                d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0M2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5z" />
-            </svg>
-
-          </a>
-
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
-            <li><a class="dropdown-item" href="./nuestrodojo.html">Nuestro Dojo</a></li>
-            <li><a class="dropdown-item" href="./horarios.html">Horarios</a></li>
-            <li><a class="dropdown-item" href="./comenzaahora.html">Comenzá Ahora</a></a></li>
-            <li><a class="dropdown-item" href="#">Abonos</a></li>
-          </ul>
-        </div>
-    </nav>
-  </header>
-
-  <main>
-   
-      <section>
-        <div class="margin-box">
-          <h2>Abonos</h2>
-          <h5>Podes elegir el tipo de abono mensual que más se adapte a tu entrenamiento</h5>
-          <div class="margin-form"></div>
-          <img src="../media/ABONOS.png" alt="">
-          <div class="button">
-            <button type="button" class="btn btn-outline-danger">Pagar Abono</button>
+            <a class="navbar-brand">
+              <img src="../media/logonav.png" width="200" height="75">
+            </a>
           </div>
-      </section>
-  </main>
 
+        </div>
+        <div class="dropdown">
+
+          <div class="container-fluid"><a class="btn btn-secondary dropdown-toggle" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="col-2"></div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-bar-chart-steps" viewBox="0 0 16 16">
+                <path
+                  d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0M2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5z" />
+              </svg>
+
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+              <li><a class="dropdown-item" href="./nuestrodojo.html">Nuestro Dojo</a></li>
+              <li><a class="dropdown-item" href="./horarios.html">Horarios</a></li>
+              <li><a class="dropdown-item" href="./comenzaahora.html">Comenzá Ahora</a></a></li>
+              <li><a class="dropdown-item" href="#">Abonos</a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <article class="grid-area">
+        <h1>Abonos</h1>
+        <h5>Podes elegir el tipo de abono mensual que más se adapte a tu entrenamiento</h5>
+        <div class="margin-form"></div>
+        <img class="animate__fadeIn" src="../media/ABONOS.png" alt="">
+        <div class="button">
+          <button type="button" class="btn btn-outline-danger">Pagar Abono</button>
+        </div>
+      </article>
+    </main>
+  </section>
 
   <footer>
     &copy; 2025 4 Step Jiu Jitsu. Todos los derechos reservados.
