@@ -1,10 +1,9 @@
 @use "../utilities/variables";
 
-.p {
+p {
     color: variables.$black;
      font-family: "Open Sans", sans-serif;
-     font-size: 16px;
-     margin: variables.$p;
+     font-size: variables.$p;
 }
 
 h1 {
@@ -25,11 +24,36 @@ h5 {
      font-size: variables.$h5;
 }
 
-.margin-box {
-      margin-left: 25px;
-      margin-right: 25px;
-      margin-top: 50px;
-      margin-bottom: 50px;
+
+.grid-container {
+     // @include mixins.flex(row, start);
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     margin-left: 25px;
+     margin-right: 25px;
+     margin-top: 50px;
+     margin-bottom: 50px;
 }
+
+@media (max-width: 450px) {
+     p {
+          background-color: aqua;
+          font-size: 10px;
+
+     }
+
+     h1 {
+          font-size: 20px;
+     }
+
+     h2{
+          font-size: 17.5px;
+     }
+
+     h5{
+          font-size: 15.5px;
+     }
+}
+
 
 
