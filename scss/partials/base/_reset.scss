@@ -2,26 +2,30 @@
 
 p {
     color: variables.$black;
-     font-family: "Open Sans", sans-serif;
+     font-family: "Montserrat";
      font-size: variables.$p;
+     margin-top: 35px;
 }
 
 h1 {
      color: variables.$grey;
-     font-family: "Open Sans", sans-serif;
+     font-family: "Montserrat";
      font-size: variables.$h1;
+     color: variables.$bordo;
 }
 
 h2 {
      color: variables.$grey;
-     font-family: "Open Sans", sans-serif;
+     font-family: "Permanent Marker";
      font-size: variables.$h2;
+     color: variables.$bordo;
 }
 
 h5 {
      color: variables.$bordo;
-     font-family: "Open Sans", sans-serif;
+     font-family: "Montserrat";
      font-size: variables.$h5;
+     color: variables.$grey;
 }
 
 
