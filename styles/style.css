@@ -7,21 +7,25 @@ p {
   color: #000000;
   font-family: "Montserrat";
   font-size: 20px;
-  margin-top: 35px;
+  margin: 35px;
 }
 
 h1 {
   color: rgba(44, 42, 42, 0.582);
   font-family: "Montserrat";
+  font-weight: bold;
   font-size: 75px;
   color: rgb(155, 0, 0);
+  margin: 35px;
 }
 
 h2 {
   color: rgba(44, 42, 42, 0.582);
-  font-family: "Permanent Marker";
+  font-family: "MONTSERRAT";
+  font-weight: bold;
   font-size: 40px;
   color: rgb(155, 0, 0);
+  margin: 35px;
 }
 
 h5 {
@@ -29,6 +33,7 @@ h5 {
   font-family: "Montserrat";
   font-size: 25px;
   color: rgba(44, 42, 42, 0.582);
+  margin: 35px;
 }
 
 .grid-container {
@@ -62,13 +67,12 @@ h5 {
 }
 
 footer {
-  color: black;
-  font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+  background-color: #dfdfdf;
+  color: #000000;
+  font-family: "montserrat";
   font-style: italic;
-  margin-top: 100px;
-  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 300px;
 }
 
 .margin-form {
@@ -85,6 +89,10 @@ footer {
 
 .dropdown:hover {
   transform: scale(1.1);
+}
+
+.animate__fadeIn {
+  margin-left: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */

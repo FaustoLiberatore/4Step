@@ -1,24 +1,30 @@
 @use "../utilities/variables";
 
+
 p {
     color: variables.$black;
      font-family: "Montserrat";
      font-size: variables.$p;
-     margin-top: 35px;
+     margin: 35px;
 }
 
 h1 {
      color: variables.$grey;
      font-family: "Montserrat";
+     font-weight: bold;
+
      font-size: variables.$h1;
      color: variables.$bordo;
+     margin: 35px;
 }
 
 h2 {
      color: variables.$grey;
-     font-family: "Permanent Marker";
+     font-family: "MONTSERRAT";
+     font-weight: bold;
      font-size: variables.$h2;
      color: variables.$bordo;
+     margin: 35px;
 }
 
 h5 {
@@ -26,6 +32,7 @@ h5 {
      font-family: "Montserrat";
      font-size: variables.$h5;
      color: variables.$grey;
+     margin: 35px;
 }
 
 

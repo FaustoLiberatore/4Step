@@ -1,9 +1,10 @@
+@use "../utilities/variables";
+
 footer {
-     color: black;
-     font-family: "Lato", sans-serif;
-     font-size: 16px;
-     font-weight: 400;
+     background-color: variables.$lightgrey;
+     color: variables.$black;
+     font-family: "montserrat";
      font-style: italic;
-     margin-top: 100px;
-     margin-left: 20px;
+     font-size: 16px;
+     margin-top: 300px;
 }
