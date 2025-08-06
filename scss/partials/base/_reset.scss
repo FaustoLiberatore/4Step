@@ -12,10 +12,9 @@ h1 {
      color: variables.$grey;
      font-family: "Montserrat";
      font-weight: bold;
-
      font-size: variables.$h1;
      color: variables.$bordo;
-     margin: 35px;
+     margin-left: 35px;
 }
 
 h2 {
@@ -24,45 +23,46 @@ h2 {
      font-weight: bold;
      font-size: variables.$h2;
      color: variables.$bordo;
-     margin: 35px;
+     margin-left: 35px;
 }
+
 
 h5 {
      color: variables.$bordo;
      font-family: "Montserrat";
      font-size: variables.$h5;
      color: variables.$grey;
-     margin: 35px;
 }
 
 
 .grid-container {
-     // @include mixins.flex(row, start);
-     
      display: grid;
-     grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      gap: 25px;
-     
+     grid-template-rows: 3fr 3fr 3fr;
+     gap: 5px;
+     grid-template-areas: 
+     "fourstep"
+     "imgindex"
+     "porque";
 }
 
-.grid-area {
-     
-     
-     grid-template-columns: repeat(1, 1fr);
-     grid-template-rows: repeat(1, 1fr);
-     gap: 25px;
-     justify-content: space-between;
-     margin-left: 25px;
-     margin-right: 25px;
+.fourstep {
+     margin-top: 35px;
+     grid-area: fourstep;
+     // background-color:aqua;
 }
 
-.img {
-     grid-area: img;
+.imgindex {
+     grid-area: imgindex;
+     // background-color: burlywood;
      justify-self: center;
      align-self: center;
+
 }
 
+.porque {
+     grid-area: porque;
+     // background-color: chartreuse;
+}
 
 
 

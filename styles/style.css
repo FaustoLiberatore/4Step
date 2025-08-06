@@ -16,7 +16,7 @@ h1 {
   font-weight: bold;
   font-size: 75px;
   color: rgb(155, 0, 0);
-  margin: 35px;
+  margin-left: 35px;
 }
 
 h2 {
@@ -25,7 +25,7 @@ h2 {
   font-weight: bold;
   font-size: 40px;
   color: rgb(155, 0, 0);
-  margin: 35px;
+  margin-left: 35px;
 }
 
 h5 {
@@ -33,29 +33,28 @@ h5 {
   font-family: "Montserrat";
   font-size: 25px;
   color: rgba(44, 42, 42, 0.582);
-  margin: 35px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  gap: 25px;
+  grid-template-rows: 3fr 3fr 3fr;
+  gap: 5px;
+  grid-template-areas: "fourstep" "imgindex" "porque";
 }
 
-.grid-area {
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  gap: 25px;
-  justify-content: space-between;
-  margin-left: 25px;
-  margin-right: 25px;
+.fourstep {
+  margin-top: 35px;
+  grid-area: fourstep;
 }
 
-.img {
-  grid-area: img;
+.imgindex {
+  grid-area: imgindex;
   justify-self: center;
   align-self: center;
+}
+
+.porque {
+  grid-area: porque;
 }
 
 /*Permanent Marker*/
@@ -69,10 +68,11 @@ h5 {
 footer {
   background-color: #dfdfdf;
   color: #000000;
+  border: 1px solid black;
   font-family: "montserrat";
   font-style: italic;
   font-size: 16px;
-  margin-top: 300px;
+  margin-top: 150px;
 }
 
 .margin-form {
