@@ -1,11 +1,10 @@
 @use "../utilities/variables";
 
-
 p {
     color: variables.$black;
      font-family: "Montserrat";
      font-size: variables.$p;
-     margin: variables.$marginleft;
+     margin: variables.$margin;
 }
 
 h1 {
@@ -14,7 +13,7 @@ h1 {
      font-weight: bold;
      font-size: variables.$h1;
      color: variables.$bordo;
-      margin: variables.$marginleft;
+      margin: variables.$margin;
 }
 
 h2 {
@@ -23,7 +22,7 @@ h2 {
      font-weight: bold;
      font-size: variables.$h2;
      color: variables.$bordo;
-     margin: variables.$marginleft;
+     margin: variables.$margin;
 }
 
 h5 {
@@ -31,7 +30,7 @@ h5 {
      font-family: "Montserrat";
      font-size: variables.$h5;
      color: variables.$grey;
-     margin: variables.$marginleft;
+     margin: variables.$margin;
 }
 
 
@@ -79,7 +78,7 @@ h5 {
 
 .img {
      grid-area: horarios;
-     margin: variables.$marginleft;
+     margin: variables.$margin;
 }
 
 .grid-container3 {
