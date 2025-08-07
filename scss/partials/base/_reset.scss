@@ -5,7 +5,7 @@ p {
     color: variables.$black;
      font-family: "Montserrat";
      font-size: variables.$p;
-     margin: 35px;
+     margin: variables.$marginleft;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
      font-weight: bold;
      font-size: variables.$h1;
      color: variables.$bordo;
-     margin-left: 35px;
+      margin: variables.$marginleft;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
      font-weight: bold;
      font-size: variables.$h2;
      color: variables.$bordo;
-     margin-left: 35px;
+      margin: variables.$marginleft;
 }
 
 
@@ -32,6 +32,7 @@ h5 {
      font-family: "Montserrat";
      font-size: variables.$h5;
      color: variables.$grey;
+     margin: variables.$marginleft;
 }
 
 
@@ -46,8 +47,8 @@ h5 {
 }
 
 .fourstep {
-     margin-top: 35px;
      grid-area: fourstep;
+     margin-top: 35px;
      // background-color:aqua;
 }
 
@@ -65,5 +66,37 @@ h5 {
 }
 
 
+.grid-container2 {
+     display: grid;
+     grid-template-rows: 0.5fr 2fr;
+     grid-template-areas: 
+     "texto"
+     "horarios";
+}
 
+.texto {
+     grid-area: texto;
+}
+
+.horarios {
+     grid-area: horarios;
+     margin: variables.$marginleft;
+}
+
+.grid-container3 {
+     display: grid;
+     grid-template-rows: 0.5fr 2fr;
+     grid-template-areas: 
+     "texto"
+     "abonos";
+}
+
+.texto {
+     grid-area: texto;
+}
+
+.abonos {
+     grid-area: abonos;
+     
+}
 
