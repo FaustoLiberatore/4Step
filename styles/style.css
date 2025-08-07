@@ -60,7 +60,7 @@ h5 {
 
 .grid-container2 {
   display: grid;
-  grid-template-rows: 0.5fr 2fr;
+  grid-template-rows: 0.25fr 2fr;
   grid-template-areas: "texto" "horarios";
 }
 
@@ -68,7 +68,7 @@ h5 {
   grid-area: texto;
 }
 
-.horarios {
+.img {
   grid-area: horarios;
   margin: 35px;
 }
@@ -114,7 +114,8 @@ footer {
 }
 
 .dropdown-menu {
-  font-family: "roboto";
+  font-family: "montserrat";
+  background-color: white;
 }
 
 .dropdown:hover {

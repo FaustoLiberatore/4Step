@@ -23,9 +23,8 @@ h2 {
      font-weight: bold;
      font-size: variables.$h2;
      color: variables.$bordo;
-      margin: variables.$marginleft;
+     margin: variables.$marginleft;
 }
-
 
 h5 {
      color: variables.$bordo;
@@ -68,7 +67,7 @@ h5 {
 
 .grid-container2 {
      display: grid;
-     grid-template-rows: 0.5fr 2fr;
+     grid-template-rows: 0.25fr 2fr;
      grid-template-areas: 
      "texto"
      "horarios";
@@ -78,7 +77,7 @@ h5 {
      grid-area: texto;
 }
 
-.horarios {
+.img {
      grid-area: horarios;
      margin: variables.$marginleft;
 }
