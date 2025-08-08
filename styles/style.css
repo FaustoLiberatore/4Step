@@ -87,6 +87,16 @@ h5 {
   grid-area: abonos;
 }
 
+.form {
+  display: grid;
+  grid-template-rows: 3fr 3fr 3fr;
+  gap: 5px;
+  grid-template-areas: "f1" "f2" "f3";
+  margin: 20px 35px;
+  font-family: "Montserrat";
+  border: 1px solid black;
+}
+
 /*Permanent Marker*/
 .navbar {
   display: grid;
@@ -132,10 +142,22 @@ footer {
 .dropdown-menu {
   font-family: "montserrat";
   background-color: white;
+  color: #000000;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+.custom-dropdown {
+  background-color: #000000;
+  font-family: "montserrat";
+  color: white;
+  border: none;
 }
 
 .dropdown:hover {
   transform: scale(1.1);
+  background-color: white;
+  color: #000000;
 }
 
 .animate__fadeIn {

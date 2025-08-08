@@ -33,7 +33,7 @@ h5 {
      margin: variables.$margin;
 }
 
-
+// INDEX
 .grid-container {
      display: grid;
      grid-template-rows: 3fr 3fr 3fr;
@@ -47,12 +47,10 @@ h5 {
 .fourstep {
      grid-area: fourstep;
      margin-top: 35px;
-     // background-color:aqua;
 }
 
 .imgindex {
      grid-area: imgindex;
-     // background-color: burlywood;
      justify-self: center;
      align-self: center;
 
@@ -60,10 +58,10 @@ h5 {
 
 .porque {
      grid-area: porque;
-     // background-color: chartreuse;
 }
 
 
+// HORARIOS
 .grid-container2 {
      display: grid;
      grid-template-rows: 0.25fr 2fr;
@@ -81,6 +79,8 @@ h5 {
      margin: variables.$margin;
 }
 
+
+// ABONOS
 .grid-container3 {
      display: grid;
      grid-template-rows: 0.5fr 2fr;
@@ -98,3 +98,28 @@ h5 {
      
 }
 
+// COMENZA AHORA
+.form {
+     display: grid;
+     grid-template-rows: 3fr 3fr 3fr;
+     gap: 5px;
+     grid-template-areas: 
+     "f1"
+     "f2"
+     "f3";
+     margin: variables.$margin;
+     font-family: "Montserrat";
+     border: 1px solid black;
+}
+
+.f1{
+
+}
+
+.f2{
+
+}
+
+.f3{
+
+}

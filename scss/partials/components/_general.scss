@@ -1,4 +1,4 @@
-// @use "../utilities/mixins";
+
 @use "../utilities/variables";
 
 .margin-form {
@@ -12,14 +12,26 @@
 .dropdown-menu {
      font-family:"montserrat";
      background-color: white;
+     color: variables.$black;
+     border: 2px solid black;
+     border-radius: 10%;
+}
+
+.custom-dropdown {
+     background-color: variables.$black;
+     font-family:"montserrat";
+     color: white;
+     border: none;
 }
 
 .dropdown:hover {
      transform: scale(1.1);
+     background-color: white;
+     color: variables.$black;
 }
 
 .animate__fadeIn {
-     margin-left: 35px;
+     margin-left: variables.$marginleft;
 }
 
 .fig {
