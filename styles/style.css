@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   color: rgba(44, 42, 42, 0.582);
-  font-family: "MONTSERRAT";
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 40px;
   color: rgb(155, 0, 0);
@@ -75,26 +75,25 @@ h5 {
 
 .grid-container3 {
   display: grid;
-  grid-template-rows: 0.5fr 2fr;
-  grid-template-areas: "texto" "abonos";
-}
-
-.texto {
-  grid-area: texto;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas: "abonos" "btn1";
+  gap: 5px;
 }
 
 .abonos {
   grid-area: abonos;
 }
 
+.btn1 {
+  grid-area: btn1;
+}
+
 .form {
   display: grid;
-  grid-template-rows: 3fr 3fr 3fr;
+  grid-template-rows: 2fr 3fr 3fr;
   gap: 5px;
-  grid-template-areas: "f1" "f2" "f3";
-  margin: 20px 35px;
+  margin: 65px 35px;
   font-family: "Montserrat";
-  border: 1px solid black;
 }
 
 /*Permanent Marker*/
@@ -121,24 +120,6 @@ h5 {
   align-items: start;
 }
 
-footer {
-  background-color: #dfdfdf;
-  color: #000000;
-  border: 1px solid black;
-  font-family: "montserrat";
-  font-style: italic;
-  font-size: 16px;
-  margin-top: 150px;
-}
-
-.margin-form {
-  margin: 25px;
-}
-
-.margin-form-labels {
-  margin: 45px;
-}
-
 .dropdown-menu {
   font-family: "montserrat";
   background-color: white;
@@ -160,6 +141,24 @@ footer {
   color: #000000;
 }
 
+footer {
+  background-color: #dfdfdf;
+  color: #000000;
+  border: 1px solid black;
+  font-family: "montserrat";
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 150px;
+}
+
+.margin-form {
+  margin: 25px;
+}
+
+.margin-form-labels {
+  margin: 45px;
+}
+
 .animate__fadeIn {
   margin-left: 35px;
 }
@@ -167,6 +166,40 @@ footer {
 .fig {
   font-family: "montserrat";
   font-style: italic;
+}
+
+p.h3 {
+  margin-left: 0px;
+}
+
+.button {
+  font-family: "montserrat";
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: rgb(155, 0, 0);
+  color: white;
+}
+
+.btn1 {
+  margin: 0px;
+  padding: 14px;
+  display: flex;
+  align-content: flex-start;
+  margin-top: 50px;
+}
+
+.btn2 {
+  margin: 0px;
+  padding: 14px 28px;
+  display: flex;
+  align-content: flex-start;
+  margin-top: 50px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: rgb(155, 0, 0);
 }
 
 /*# sourceMappingURL=style.css.map */

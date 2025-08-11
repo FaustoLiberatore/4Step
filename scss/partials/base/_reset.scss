@@ -18,7 +18,7 @@ h1 {
 
 h2 {
      color: variables.$grey;
-     font-family: "MONTSERRAT";
+     font-family: "Montserrat";
      font-weight: bold;
      font-size: variables.$h2;
      color: variables.$bordo;
@@ -83,14 +83,12 @@ h5 {
 // ABONOS
 .grid-container3 {
      display: grid;
-     grid-template-rows: 0.5fr 2fr;
+     grid-template-rows: 2fr 1fr;
      grid-template-areas: 
-     "texto"
-     "abonos";
-}
-
-.texto {
-     grid-area: texto;
+     "abonos"
+     "btn1"; 
+     gap: 5px;
+     
 }
 
 .abonos {
@@ -98,28 +96,15 @@ h5 {
      
 }
 
+.btn1  {
+     grid-area: btn1;
+}
+
 // COMENZA AHORA
 .form {
      display: grid;
-     grid-template-rows: 3fr 3fr 3fr;
+     grid-template-rows: 2fr 3fr 3fr;
      gap: 5px;
-     grid-template-areas: 
-     "f1"
-     "f2"
-     "f3";
-     margin: variables.$margin;
+     margin: 65px 35px;
      font-family: "Montserrat";
-     border: 1px solid black;
-}
-
-.f1{
-
-}
-
-.f2{
-
-}
-
-.f3{
-
 }

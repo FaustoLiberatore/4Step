@@ -9,26 +9,6 @@
      margin: 45px;
 }
 
-.dropdown-menu {
-     font-family:"montserrat";
-     background-color: white;
-     color: variables.$black;
-     border: 2px solid black;
-     border-radius: 10%;
-}
-
-.custom-dropdown {
-     background-color: variables.$black;
-     font-family:"montserrat";
-     color: white;
-     border: none;
-}
-
-.dropdown:hover {
-     transform: scale(1.1);
-     background-color: white;
-     color: variables.$black;
-}
 
 .animate__fadeIn {
      margin-left: variables.$marginleft;
@@ -37,6 +17,41 @@
 .fig {
      font-family:"montserrat";
      font-style: italic;
+}
+
+p.h3 {
+     margin-left: 0px;
+}
+
+
+// BUTTONS
+.button {
+     font-family: "montserrat";
+     font-size: 18px;
+     border-radius: 10px;
+     background-color: variables.$bordo;
+     color: white;
+}
+.btn1 {
+     margin: 0px;
+     padding: 14px ;
+     display: flex;
+     align-content: flex-start;
+     margin-top: 50px;
+}
+
+.btn2 {
+     margin: 0px;
+     padding: 14px 28px;
+     display: flex;
+     align-content: flex-start;
+     margin-top: 50px;
+}
+
+.button:hover {
+     transform: scale(1.1);
+     background-color: white;
+     color: variables.$bordo;
 }
 
 // @media (max-width: 450px) {
